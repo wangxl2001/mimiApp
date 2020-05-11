@@ -1,0 +1,40 @@
+<!--pages/list/list.wxml-->
+
+<view class="inputContainer">
+  <view>请输入账号密码</view>
+  <input value="请输入账号密码" bindtap="handleTap"></input>
+</view>
+
+<!-- scroll-view滚动容器 -->
+
+<view>
+  <view>
+    <text>手动设置竖向滚动条位置</text>
+  </view>
+
+  <view>
+    <scroll-view scroll-y scroll-x style="height: 300rpx;">
+    <view class="view1 view0"></view>
+    <view class="view2 view0"></view>
+    </scroll-view>
+  </view>
+
+  <view class="weui-btn-area">
+    <view class="weui-flex_item center">
+      <button data-name="scrollTop1" 
+              bind:tap="plusDyncData" 
+              class="weui-btn mini-btn" 
+              size="mini">横向自动</button>
+    </view>
+    <view class="weui-flex_item center">
+      <button data-name="scrollTop1" 
+              bind:tap="plusDyncData" 
+              class="weui-btn mini-btn" 
+              size="mini">竖向自动</button>
+    </view>
+  </view>
+</view>
+
+
+
+

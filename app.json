@@ -1,0 +1,15 @@
+{
+  "pages": [    
+    "pages/index/index",
+    "pages/list/list"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#47b347",
+    "navigationBarTitleText": "welcome to my miniProgram",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
