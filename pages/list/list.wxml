@@ -32,6 +32,10 @@
               class="weui-btn mini-btn" 
               size="mini">竖向自动</button>
     </view>
+
+    <view>
+      <text>我们都是一样的</text>
+    </view>
   </view>
 </view>
 
